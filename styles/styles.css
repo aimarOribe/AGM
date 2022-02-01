@@ -1,19 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f4f5f7;
+}
+
 .navbar-logo{
     font-size: 30px;
 }
+
+/* NAVBAR */
+
+
+.servicio:hover{
+    font-weight: 600;
+    transition: 0.1s;
+}
+
+/* NAVBAR */
+
+
 /* BANNER */
 
 .banner{
-    background-color: rgb(233, 193, 193);
+    background-color: #d61331;
+    color: #FFF;
 }
 .botonprincipal{
+    margin: 10px;
     background-color: red;
     border-color: red;
-    font-size: 20px;
+    font-size: 17px;
+    font-weight: bold;
     width: 15%;
     text-transform: uppercase;
+    transition: 0.5s;
 }
-h5{
+
+/* CARDS */
+
+.boton-secundario {
+    color: #fff !important;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #318aac;
+    border: 2px solid;
+    border-color: #318aac;
+    position: relative;
+  }
+  .boton-secundario:before {
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 1s ease;
+  }
+  .boton-secundario:hover:before {
+  width: 100%;
+  }
+/* CARDS FIN */
+
+/* CLIENTES */
+
+.carrusel {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .carrusel-items {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 30px 0px;
+    box-shadow: 0 10px 20px -5px rgba(0,0,0,0.5);
+  }
+  
+  .carrusel-item {
+    /* min-width: 300px;
+    max-width: 300px;
+    height: 150px;
+    outline: 2px solid black; */
+    cursor: pointer;
+  }
+  
+  .carrusel-item img {
+    width: 250px;
+    height: 100px;
+    
+  }
+
+  .carrusel-item:hover {
+    transform: scale(1.2);
+    transition: 1s;
+  }
+
+/* CLIENTES FIN */
+
+
+h2{
+    margin: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #666666;
+}
+
+h3{
     font-size: 2rem;
-    font-weight: 700;
 }
+
+h4{
+    font-size: 1.5rem;
+}
+
+h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* SERVICIO 1 */
+
+.imagen-servicio-uno{
+    border-radius: 10px;
+
+}
+
+.titulo-servicio{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.servicioOne{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.imagenDosServicioUno{
+    margin-top: 40px;
+}
+
+/* SERVICIO 2 */
+
+.imagen-servicio-dos{
+    border-radius: 10px;
+
+}
+
+.servicioTwo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.imagenesServicioDos{
+    margin-top: 40px;
+}
+
+/* SERVICIO 3 */
+
+.imagen-servicio-tres{
+    border-radius: 10px;
+
+}
+
+.servicioThree{
+    margin-bottom: 60px;
+}
+
+.imagenesServicioTres{
+    margin-top: 40px;
+}
+
+@media(min-width:570px) and (max-width:1117px) {
+
+    .servicioThree > div{
+        display: block;
+        text-align: center;
+    }
+
+    .imagenServicioReducida{
+        margin-top: 40px;
+    }
+    
+}
+
+
+
+
