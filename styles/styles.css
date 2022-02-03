@@ -19,6 +19,14 @@ body{
     transition: 0.1s;
 }
 
+@media(min-width:140px) and (max-width:746px) {
+
+    .barra-navegacion{
+        flex-direction: column;
+    }
+
+}
+
 /* NAVBAR */
 
 
@@ -39,7 +47,21 @@ body{
     transition: 0.5s;
 }
 
+@media(min-width:440px) and (max-width:969px) {
+
+    .regran-texto{
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+}
+
 /* CARDS */
+
+.cards-imagen{
+    width: auto;
+    height: 200px;
+}
 
 .boton-secundario {
     color: #fff !important;
@@ -66,10 +88,10 @@ body{
   }
 /* CARDS FIN */
 
-/* MODAL MANTENIMIENTO */
+/* MODAL */
 
 .arreglar{
-    margin-top: 12px;
+    margin-top: 1px;
     color: #128c7e;
 }
 
@@ -83,7 +105,11 @@ body{
     color: #666666;
 }
 
-/* MODAL MANTENIMIENTO FIN */
+.modal-chico{
+    display: block;
+}
+
+/* MODAL FIN */
 
 /* CLIENTES */
 
@@ -290,14 +316,11 @@ h5{
 .nosotros-col-2{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
-.nosotros-col-2 > .principios{
-    margin: 0 auto;
-}
 
 .descripcion{
     margin-bottom: 30px;
@@ -306,6 +329,7 @@ h5{
 .nosotros-texto{
     color: #666666;
     font-size: 20px;
+    text-align: left;
 }
 
 .imagenes-nosotros{
@@ -314,17 +338,30 @@ h5{
 }
 
 .nosotros-titulo{
+    font-size: 1.7rem;
     font-weight: bold;
     color: #666666;
 }
 
-@media(min-width:112px) and (max-width:768px){
-    .nosotros-col-2 > .principios{
-        margin-left: 110px;
-    }
+.imagen-nosotros{
+    width: 320px;
+    height: 320px;
 }
 
 /* NOSOTROS FIN */
+
+/* CONTACTANOS */
+
+.subtitulo-contactanos{
+    color: #666666;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* CONTACTANOS FIN */
 
 
 
