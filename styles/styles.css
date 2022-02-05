@@ -186,13 +186,24 @@ h5{
 
 /* SERVICIO 1 */
 
-.imagen-servicio-uno{
+.imagen-servicio{
     border-radius: 10px;
+    width: 700px;
+    height: 350px;
+}
 
+.imagen-servicio-doble{
+    border-radius: 10px;
+    width: 500px;
+    height: 310px;
 }
 
 .titulo-servicio{
     margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.cuerpo-servicio{
     margin-bottom: 60px;
 }
 
@@ -205,6 +216,24 @@ h5{
 
 .imagenDosServicioUno{
     margin-top: 40px;
+}
+
+@media(min-width:720px) and (max-width:920px){
+    .imagen-servicio{
+        width: 500px;
+        height: 250px;
+    }
+}
+@media(min-width:420px) and (max-width:719px){
+    .imagen-servicio{
+        width: 400px;
+        height: 200px;
+    }
+
+    .imagen-servicio-doble{
+        width: 400px;
+        height: 210px;
+    }
 }
 
 /* BOTON FLOTANTE */
