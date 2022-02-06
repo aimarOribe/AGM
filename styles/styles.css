@@ -7,12 +7,46 @@ body{
     background-color: #f4f5f7;
 }
 
-.navbar-logo{
-    font-size: 30px;
+h2{
+    margin: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #666666;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.titulo-servicios{
+    background-color: rgba(250, 12, 12, 0.822);
+    /* background-color: rgba(2, 2, 2, 0.555); */
+    /* color: #000; */
+    font-weight: 700;
+    border-radius: 10px;
+    border: 3px solid #fff;
 }
 
 /* NAVBAR */
+.colormenu{
+    background-color: #fff;
+    /* height: 100px; */
+    font-weight: 500;
+}
 
+.colormenu-secundario{
+    background-color: #1877f2;
+}
 
 .servicio:hover{
     font-weight: 600;
@@ -27,24 +61,58 @@ body{
 
 }
 
+.logo-nabvar{
+    display: flex;
+    flex-direction: row;
+}
+
+.texto-logo-navbar{
+    margin-top: 30px;
+    /* background-color: red; */
+    color: #013a6a;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: Arial;
+    font-style: italic;
+    
+}
+
+.texto-logo-navbar-2{
+    margin-top: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Arial;
+    font-style: italic;
+}
+
+
 /* NAVBAR */
 
 
 /* BANNER */
 
 .banner{
-    background-color: #d61331;
+    /* background-color: #ff0000; */
+    background-color: #1877f2;
     color: #FFF;
 }
 .botonprincipal{
     margin: 10px;
-    background-color: red;
-    border-color: red;
+    background-color: #ff0000;
+    border-color: #ff0000;
     font-size: 17px;
     font-weight: bold;
     width: 15%;
     text-transform: uppercase;
-    transition: 0.5s;
+    /* transition: 0.5s; */
+}
+.botonprincipal:hover{
+    background-color: #fff;
+    color: #ff0000;
+    border: 3px solid #ff0000;
+    transition: all .3s ease;
+   
 }
 
 @media(min-width:440px) and (max-width:969px) {
@@ -68,9 +136,8 @@ body{
     font-size: 17px;
     font-weight: 500;
     padding: 0.5em 1.2em;
-    background: #318aac;
+    background: #1877f2;
     border: 2px solid;
-    border-color: #318aac;
     position: relative;
   }
   .boton-secundario:before {
@@ -92,7 +159,7 @@ body{
 
 .arreglar{
     margin-top: 1px;
-    color: #128c7e;
+    color: #ff0000;
 }
 
 .boton-modal{
@@ -154,26 +221,7 @@ body{
 /* CLIENTES FIN */
 
 
-h2{
-    margin: 40px;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #666666;
-}
 
-h3{
-    font-size: 2rem;
-}
-
-h4{
-    font-size: 1.5rem;
-}
-
-h5{
-    font-size: 1.5rem;
-    font-weight: 600;
-}
 
 /* ZOOM IMG SERVICIOS */
 
@@ -261,7 +309,7 @@ h5{
 }
 .redes a:hover{
     background: #fff;
-    color: #cc2b2b;
+    color: #ff0000;
 }
 .redes a{
     margin-bottom: -15px;
@@ -275,7 +323,7 @@ h5{
 }
 .btn-mas label{
     cursor: pointer;
-    background: #f44141;
+    background: #ff0000;
     font-size: 23px;
 }
 #btn-mas:checked ~ .btn-mas label{
@@ -362,8 +410,8 @@ h5{
 }
 
 .imagenes-nosotros{
-    width: 70px;
-    height: 70px;
+    width: 150px;
+    height: 150px;
 }
 
 .nosotros-titulo{
