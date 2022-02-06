@@ -89,6 +89,41 @@ h5{
 
 /* NAVBAR */
 
+/* CARRUSEL */
+
+.tamaño-carrusel{
+    height: 525px;
+}
+
+@media(min-width:680px) and (max-width:1000px) {
+    .tamaño-carrusel{
+        height: 450px;
+    }
+    .texto-carrusel{
+        font-size: 25px;
+    }
+}
+
+@media(min-width:580px) and (max-width:679px) {
+    .tamaño-carrusel{
+        height: 350px;
+    }
+}
+
+@media(min-width:400px) and (max-width:479px) {
+    .tamaño-carrusel{
+        height: 250px;
+    }
+}
+
+@media(min-width:150px) and (max-width:399px) {
+    .tamaño-carrusel{
+        height: 150px;
+    }
+}
+
+/* CARRUSEL FIN */
+
 
 /* BANNER */
 
@@ -115,6 +150,10 @@ h5{
    
 }
 
+.tamaño-imagen-banner{
+    height: 340px;
+}
+
 @media(min-width:440px) and (max-width:969px) {
 
     .regran-texto{
@@ -124,11 +163,35 @@ h5{
 
 }
 
+@media(min-width:880px) and (max-width:1100px) {
+
+    .tamaño-imagen-banner{
+        height: 250px;
+    }
+
+}
+
+@media(min-width:200px) and (max-width:880px) {
+
+    .tamaño-imagen-banner{
+        height: 150px;
+    }
+
+}
+
 /* CARDS */
 
 .cards-imagen{
     width: auto;
     height: 200px;
+}
+
+@media(min-width:250px) and (max-width:400px) {
+    .cards-imagen{
+        width: auto;
+        height: 150px;
+    }
+
 }
 
 .boton-secundario {
@@ -153,6 +216,31 @@ h5{
   .boton-secundario:hover:before {
   width: 100%;
   }
+
+
+.inicio-titulo{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #666666;
+}
+
+@media(min-width:260px) and (max-width:640px){
+    .inicio-titulo{
+        font-size: 1.1rem;
+    }
+    .nosotros-texto{
+        font-size: 15px;
+    }
+    .imagenes-nosotros{
+        width: 100px;
+        height: 100px;
+    }
+    .imagen-nosotros{
+        width: 150px;
+        height: 150px;
+    }
+    
+}
 /* CARDS FIN */
 
 /* MODAL */
@@ -170,6 +258,18 @@ h5{
 .titulo-modal{
     font-weight: bold;
     color: #666666;
+}
+
+@media(min-width:260px) and (max-width:640px){
+    .titulo-modal{
+        font-size: 1.4rem;
+    }
+    .arreglar{
+        font-size: 1.1rem;
+    }
+    .texto-modal{
+        font-size: 13px;
+    }
 }
 
 .modal-chico{
@@ -284,6 +384,30 @@ h5{
     }
 }
 
+@media(min-width:480px) and (max-width:719px){
+    .imagen-servicio{
+        width: 400px;
+        height: 200px;
+    }
+
+    .imagen-servicio-doble{
+        width: 400px;
+        height: 210px;
+    }
+}
+
+@media(min-width:300px) and (max-width:479px){
+    .imagen-servicio{
+        width: 280px;
+        height: 140px;
+    }
+
+    .imagen-servicio-doble{
+        width: 280px;
+        height: 150px;
+    }
+}
+
 /* BOTON FLOTANTE */
 
 #btn-mas{
@@ -393,14 +517,8 @@ h5{
 .nosotros-col-2{
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-top: 10px;
     margin-bottom: 40px;
-}
-
-
-.descripcion{
-    margin-bottom: 30px;
 }
 
 .nosotros-texto{
@@ -425,6 +543,24 @@ h5{
     height: 320px;
 }
 
+@media(min-width:360px) and (max-width:640px){
+    .nosotros-titulo{
+        font-size: 1.2rem;
+    }
+    .nosotros-texto{
+        font-size: 15px;
+    }
+    .imagenes-nosotros{
+        width: 100px;
+        height: 100px;
+    }
+    .imagen-nosotros{
+        width: 150px;
+        height: 150px;
+    }
+    
+}
+
 /* NOSOTROS FIN */
 
 /* CONTACTANOS */
@@ -437,6 +573,110 @@ a{
     text-decoration: none;
     color: black;
 }
+
+.contenedor-nosotros-padre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contenedor-hijos-uno{
+    width: 70%;
+}
+
+.contenedor-hijos-dos{
+    width: 30%;
+}
+
+.mapa-contactanos{
+    width: 700px;
+    height: 550px;
+}
+
+@media(min-width:860px) and (max-width:1100px){
+    .contenedor-nosotros-padre{
+        display: block;
+    }
+
+    .contenedor-hijos-uno{
+        width: 100%;
+
+    }
+
+    .contenedor-hijos-dos{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media(min-width:540px) and (max-width:859px){
+    .contenedor-nosotros-padre{
+        display: block;
+    }
+
+    .contenedor-hijos-uno{
+        width: 100%;
+
+    }
+
+    .contenedor-hijos-dos{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .mapa-contactanos{
+        width: 550px;
+        height: 350px;
+    }
+}
+
+@media(min-width:469px) and (max-width:540px){
+    .contenedor-nosotros-padre{
+        display: block;
+    }
+
+    .contenedor-hijos-uno{
+        width: 100%;
+
+    }
+
+    .contenedor-hijos-dos{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .mapa-contactanos{
+        width: 350px;
+        height: 200px;
+    }
+}
+
+@media(min-width:0px) and (max-width:468px){
+    .contenedor-nosotros-padre{
+        display: block;
+    }
+
+    .contenedor-hijos-uno{
+        width: 100%;
+
+    }
+
+    .contenedor-hijos-dos{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .mapa-contactanos{
+        width: 240px;
+        height: 200px;
+    }
+}
+
 
 /* CONTACTANOS FIN */
 
