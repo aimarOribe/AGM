@@ -16,7 +16,7 @@ h2{
 }
 
 h3{
-    font-size: 2rem;
+    font-size: 1.9rem;
 }
 
 h4{
@@ -86,6 +86,12 @@ h5{
     font-style: italic;
 }
 
+@media(min-width:150px) and (max-width:500px){
+    .item-navbar{
+        font-size: 12px;
+    }
+}
+
 
 /* NAVBAR */
 
@@ -104,13 +110,13 @@ h5{
     }
 }
 
-@media(min-width:580px) and (max-width:679px) {
+@media(min-width:541px) and (max-width:679px) {
     .tamaño-carrusel{
         height: 350px;
     }
 }
 
-@media(min-width:400px) and (max-width:479px) {
+@media(min-width:400px) and (max-width:540px) {
     .tamaño-carrusel{
         height: 250px;
     }
@@ -123,6 +129,7 @@ h5{
 }
 
 /* CARRUSEL FIN */
+
 
 
 /* BANNER */
@@ -154,11 +161,15 @@ h5{
     height: 340px;
 }
 
-@media(min-width:440px) and (max-width:969px) {
+@media(min-width:240px) and (max-width:969px) {
 
     .regran-texto{
-        margin-top: 35px;
-        margin-bottom: 35px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .regran-imagen{
+        margin-bottom: 30px;
     }
 
 }
@@ -543,7 +554,7 @@ h5{
     height: 320px;
 }
 
-@media(min-width:360px) and (max-width:640px){
+@media(min-width:160px) and (max-width:640px){
     .nosotros-titulo{
         font-size: 1.2rem;
     }
@@ -557,6 +568,11 @@ h5{
     .imagen-nosotros{
         width: 150px;
         height: 150px;
+    }
+    .nosotros-cuerpo{
+        display: grid;
+        grid-template-columns: 600px;
+        justify-items: center; 
     }
     
 }
