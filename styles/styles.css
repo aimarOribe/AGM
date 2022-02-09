@@ -92,6 +92,26 @@ h5{
     }
 }
 
+/* Navbar movil */
+
+@media(min-width:416px) and (max-width:1400px){
+    .navbar-movil{
+        display: none;
+    }
+}
+
+@media(min-width:100px) and (max-width:415px){
+    .navbar-web{
+        display: none;
+    }
+    .principal-main{
+        margin-top: 56px;
+    }
+    .logo-movil{
+        height: auto;
+        width: 33px;
+    }
+}
 
 /* NAVBAR */
 
