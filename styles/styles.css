@@ -86,7 +86,7 @@ h5{
     font-style: italic;
 }
 
-.logo-movil{
+.logo-movil-padre{
     display: flex;
     flex-direction: row;
 }
@@ -94,7 +94,7 @@ h5{
 .texto-logo-movil{
     padding-top: 20px;
     padding-left: 5px;
-    font-size: 10px;
+    font-size: 14px;
     font-style: italic;
     color: #013a6a;
     font-weight: 500;
