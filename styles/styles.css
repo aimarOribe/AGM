@@ -380,6 +380,11 @@ h5{
 
 /* SERVICIO 1 */
 
+.navbar-movil-secundario{
+    background-color: #1877f2;
+}
+
+
 .imagen-servicio{
     border-radius: 10px;
     width: 700px;
