@@ -86,6 +86,20 @@ h5{
     font-style: italic;
 }
 
+.logo-movil{
+    display: flex;
+    flex-direction: row;
+}
+
+.texto-logo-movil{
+    padding-top: 20px;
+    padding-left: 5px;
+    font-size: 10px;
+    font-style: italic;
+    color: #013a6a;
+    font-weight: 500;
+}
+
 @media(min-width:150px) and (max-width:500px){
     .item-navbar{
         font-size: 12px;
@@ -105,11 +119,12 @@ h5{
         display: none;
     }
     .principal-main{
-        margin-top: 56px;
+        margin-top: 66px;
     }
     .logo-movil{
         height: auto;
-        width: 33px;
+        width: 45px;
+        padding: 0;
     }
 }
 
