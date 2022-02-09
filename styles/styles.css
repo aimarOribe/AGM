@@ -93,6 +93,7 @@ h5{
 
 .texto-logo-movil{
     padding-top: 20px;
+    padding-left: 8px;
     font-size: 15px;
     font-style: italic;
     color: #013a6a;
@@ -118,7 +119,7 @@ h5{
         display: none;
     }
     .principal-main{
-        margin-top: 66px;
+        margin-top: 78px;
     }
     .logo-movil{
         height: auto;
