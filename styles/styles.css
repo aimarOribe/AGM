@@ -2,6 +2,24 @@
     margin: 0;
     padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
+/* custom scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #013a6a;
+}
+
 
 body{
     background-color: #f4f5f7;
@@ -533,15 +551,15 @@ h5{
 
 }
 
-.servicioThree{
+/* .servicioThree{
     margin-bottom: 60px;
-}
+} */
 
 .imagenesServicioTres{
     margin-top: 40px;
 }
 
-@media(min-width:570px) and (max-width:1117px) {
+/* @media(min-width:570px) and (max-width:1117px) {
 
     .servicioThree > div{
         display: block;
@@ -552,7 +570,7 @@ h5{
         margin-top: 40px;
     }
     
-}
+} */
 
 /* PIE DE PAGINA */
 
