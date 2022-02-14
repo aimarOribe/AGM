@@ -17,7 +17,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #013a6a;
+  background: #174e81;
 }
 
 
@@ -63,7 +63,7 @@ h5{
 }
 
 .colormenu-secundario{
-    background-color: #1877f2;
+    background-color: #174e81;
 }
 
 .servicio:hover{
@@ -87,7 +87,7 @@ h5{
 .texto-logo-navbar{
     margin-top: 30px;
     /* background-color: red; */
-    color: #013a6a;
+    color: #174e81;
     font-weight: 700;
     font-size: 20px;
     font-family: Arial;
@@ -114,7 +114,7 @@ h5{
     padding-left: 8px;
     font-size: 15px;
     font-style: italic;
-    color: #013a6a;
+    color: #174e81;
     font-weight: 500;
 }
 
@@ -125,6 +125,15 @@ h5{
 }
 
 /* Navbar movil */
+
+@media(min-width:1401px) and (max-width:2500px){
+    .navbar-movil{
+        display: none;
+    }
+    .tamaño-carrusel{
+        height: 580px;
+    }
+}
 
 @media(min-width:416px) and (max-width:1400px){
     .navbar-movil{
@@ -189,7 +198,7 @@ h5{
 
 .banner{
     /* background-color: #ff0000; */
-    background-color: #1877f2;
+    background-color: #174e81;
     color: #FFF;
 }
 .botonprincipal{
@@ -263,7 +272,7 @@ h5{
     font-size: 17px;
     font-weight: 500;
     padding: 0.5em 1.2em;
-    background: #1877f2;
+    background: #174e81;
     border: 2px solid;
     position: relative;
   }
@@ -409,7 +418,7 @@ h5{
 /* SERVICIO 1 */
 
 .navbar-movil-secundario{
-    background-color: #1877f2;
+    background-color: #174e81;
 }
 
 
