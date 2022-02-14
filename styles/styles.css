@@ -165,19 +165,19 @@ h5{
 
 @media(min-width:1401px) and (max-width:2500px){
     .tamaño-carrusel{
-        height: 840px;
+        height: 800px;
     }
 }
 
 @media(min-width:1200px) and (max-width:1400px){
     .tamaño-carrusel{
-        height: 700px;
+        height: 530px;
     }
 }
 
 @media(min-width:1001px) and (max-width:1199px){
     .tamaño-carrusel{
-        height: 600px;
+        height: 500px;
     }
 }
 
