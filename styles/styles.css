@@ -324,12 +324,19 @@ h5{
     color: #666666;
 }
 
+@media(min-width:641px) and (max-width:980px){
+    .arreglar{
+        margin-top: 20px;
+    }
+}
+
 @media(min-width:260px) and (max-width:640px){
     .titulo-modal{
         font-size: 1.4rem;
     }
     .arreglar{
-        font-size: 1.1rem;
+        font-size: 1.4rem;
+        margin-top: 20px;
     }
     .texto-modal{
         font-size: 13px;
