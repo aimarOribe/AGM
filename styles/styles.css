@@ -131,7 +131,7 @@ h5{
         display: none;
     }
     .tamaño-carrusel{
-        height: 580px;
+        height: 750px;
     }
 }
 
@@ -161,6 +161,24 @@ h5{
 
 .tamaño-carrusel{
     height: 525px;
+}
+
+@media(min-width:1401px) and (max-width:2500px){
+    .tamaño-carrusel{
+        height: 840px;
+    }
+}
+
+@media(min-width:1200px) and (max-width:1400px){
+    .tamaño-carrusel{
+        height: 700px;
+    }
+}
+
+@media(min-width:1001px) and (max-width:1199px){
+    .tamaño-carrusel{
+        height: 600px;
+    }
 }
 
 @media(min-width:680px) and (max-width:1000px) {
@@ -257,6 +275,14 @@ h5{
 .cards-imagen{
     width: auto;
     height: 200px;
+}
+
+@media(min-width:1200px) and (max-width:2500px) {
+    .cards-imagen{
+        width: auto;
+        height: 250px;
+    }
+
 }
 
 @media(min-width:250px) and (max-width:400px) {
