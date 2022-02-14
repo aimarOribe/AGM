@@ -325,6 +325,9 @@ h5{
 }
 
 @media(min-width:641px) and (max-width:980px){
+    .titulo-modal{
+        font-size: 1.8rem;
+    }
     .arreglar{
         margin-top: 20px;
     }
@@ -332,7 +335,7 @@ h5{
 
 @media(min-width:260px) and (max-width:640px){
     .titulo-modal{
-        font-size: 1.4rem;
+        font-size: 1.8rem;
     }
     .arreglar{
         font-size: 1.4rem;
